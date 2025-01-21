@@ -1,0 +1,10 @@
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\bin\Debug\Pizza Project.exe.config
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\bin\Debug\Pizza Project.exe
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\bin\Debug\Pizza Project.pdb
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\obj\Debug\Pizza Project.csproj.AssemblyReference.cache
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\obj\Debug\Pizza_Project.FrmPizzaOrder.resources
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\obj\Debug\Pizza_Project.Properties.Resources.resources
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\obj\Debug\Pizza Project.csproj.GenerateResource.cache
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\obj\Debug\Pizza Project.csproj.CoreCompileInputs.cache
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\obj\Debug\Pizza Project.exe
+E:\Visual Studio\source\Projects\Course 14\P1.Pizza Project\Pizza Project\obj\Debug\Pizza Project.pdb
