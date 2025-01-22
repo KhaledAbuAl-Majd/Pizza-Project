@@ -34,9 +34,13 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\Visual Studio\\source\\Projects\\Course 14\\P1.Pizza Project\\Pizza Project\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\Visual Studio\\source\\Projects\\Course 14\\P1.Pizza Project\\Pizza Project\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAzwF8AAAAAAAAAAAAAAA==",
+              "ToolTip": "E:\\Visual Studio\\source\\Projects\\Course 14\\P1.Pizza Project\\Pizza Project\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+<<<<<<< Updated upstream
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAANwAAAAAAAAAAAAcwOwAAAAMAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T10:07:55.403Z",
               "EditorCaption": ""
@@ -47,8 +51,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\Visual Studio\\source\\Projects\\Course 14\\P1.Pizza Project\\Pizza Project\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "E:\\Visual Studio\\source\\Projects\\Course 14\\P1.Pizza Project\\Pizza Project\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "E:\\Visual Studio\\source\\Projects\\Course 14\\P1.Pizza Project\\Pizza Project\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T09:57:04.279Z",
               "EditorCaption": " [Design]"
