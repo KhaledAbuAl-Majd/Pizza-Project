@@ -181,7 +181,8 @@ namespace Pizza_Project
 
         float CalculateTotalPrice()
         {
-            return GetSelectedSizePrice() + CalculateToppingsPrice() + GetSelectedCrustPrice();
+            return (GetSelectedSizePrice() + CalculateToppingsPrice() + GetSelectedCrustPrice())
+                * Convert.ToInt16(nudAmount.Value);
         }
 
         void UpdateTotalPrice()
@@ -189,6 +190,10 @@ namespace Pizza_Project
             lblTotallPrice.Text = "$" + CalculateTotalPrice();
         }
 
+        void UpdateAmount()
+        {
+            nudAmount.Value = 1;
+        }
         void UpdateOrderSummary()
         {
             UpdateSize();
@@ -196,6 +201,7 @@ namespace Pizza_Project
             UpdateCrust();
             UpdateWhereToEat();
             UpdateTotalPrice();
+            UpdateAmount();
         }
 
         void ResetForm()
@@ -216,6 +222,7 @@ namespace Pizza_Project
             chkOlives.Checked = false;
             chkTomatoes.Checked = false;
             chkGreenPeppers.Checked = false;
+            nudAmount.Value = 1;
         }
 
         private void rbSmall_CheckedChanged(object sender, EventArgs e)
@@ -306,6 +313,11 @@ namespace Pizza_Project
         private void btnResetForm_Click(object sender, EventArgs e)
         {
             ResetForm();
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            UpdateTotalPrice();
         }
     }
 }

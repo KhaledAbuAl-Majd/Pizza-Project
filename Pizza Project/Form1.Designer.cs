@@ -61,11 +61,14 @@
             this.lblMakeYourPizza = new System.Windows.Forms.Label();
             this.btnOrderPizza = new System.Windows.Forms.Button();
             this.btnResetForm = new System.Windows.Forms.Button();
+            this.nudAmount = new System.Windows.Forms.NumericUpDown();
+            this.label6 = new System.Windows.Forms.Label();
             this.gbSize.SuspendLayout();
             this.gbCrustType.SuspendLayout();
             this.gbToppings.SuspendLayout();
             this.gbWhereToEat.SuspendLayout();
             this.gbOrderSummary.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAmount)).BeginInit();
             this.SuspendLayout();
             // 
             // gbSize
@@ -310,7 +313,7 @@
             this.gbOrderSummary.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gbOrderSummary.Location = new System.Drawing.Point(651, 116);
             this.gbOrderSummary.Name = "gbOrderSummary";
-            this.gbOrderSummary.Size = new System.Drawing.Size(322, 316);
+            this.gbOrderSummary.Size = new System.Drawing.Size(386, 316);
             this.gbOrderSummary.TabIndex = 1;
             this.gbOrderSummary.TabStop = false;
             this.gbOrderSummary.Text = "Order Summary";
@@ -319,9 +322,9 @@
             // 
             this.lblTotallPrice.Font = new System.Drawing.Font("Zilla Slab", 47.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotallPrice.ForeColor = System.Drawing.Color.Green;
-            this.lblTotallPrice.Location = new System.Drawing.Point(151, 228);
+            this.lblTotallPrice.Location = new System.Drawing.Point(127, 233);
             this.lblTotallPrice.Name = "lblTotallPrice";
-            this.lblTotallPrice.Size = new System.Drawing.Size(165, 74);
+            this.lblTotallPrice.Size = new System.Drawing.Size(235, 74);
             this.lblTotallPrice.TabIndex = 11;
             this.lblTotallPrice.Text = "$0";
             // 
@@ -463,11 +466,37 @@
             this.btnResetForm.UseVisualStyleBackColor = true;
             this.btnResetForm.Click += new System.EventHandler(this.btnResetForm_Click);
             // 
+            // nudAmount
+            // 
+            this.nudAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudAmount.Location = new System.Drawing.Point(135, 437);
+            this.nudAmount.Maximum = new decimal(new int[] {
+            500,
+            0,
+            0,
+            0});
+            this.nudAmount.Name = "nudAmount";
+            this.nudAmount.Size = new System.Drawing.Size(88, 35);
+            this.nudAmount.TabIndex = 14;
+            this.nudAmount.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(53, 443);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 20);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Amount:";
+            // 
             // FrmPizzaOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1049, 541);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.nudAmount);
             this.Controls.Add(this.btnResetForm);
             this.Controls.Add(this.btnOrderPizza);
             this.Controls.Add(this.lblMakeYourPizza);
@@ -490,6 +519,7 @@
             this.gbWhereToEat.PerformLayout();
             this.gbOrderSummary.ResumeLayout(false);
             this.gbOrderSummary.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAmount)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -529,6 +559,8 @@
         private System.Windows.Forms.Button btnResetForm;
         private System.Windows.Forms.Label lblTotalPrice;
         private System.Windows.Forms.Label lblTotallPrice;
+        private System.Windows.Forms.NumericUpDown nudAmount;
+        private System.Windows.Forms.Label label6;
     }
 }
 
